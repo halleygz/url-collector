@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "URL Tracker",
+    "version": "1.0",
+    "description": "Track and save URLs",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "imggg.png"
+    },
+    "permissions": ["tabs"]
+  }
+  
