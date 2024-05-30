@@ -59,7 +59,7 @@ function renderUrls() {
   const urls = getUrls();
   urls.forEach(url => {
     const li = document.createElement('li');
-    li.textContent = url;
+    li.innerHTML = `<a target="_blank" href="${url}">${url}</a>`;
     olEl.appendChild(li);
   });
 }
